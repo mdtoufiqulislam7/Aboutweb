@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Home Page</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			background-color: #f7f7f7;
+			margin: 0;
+			padding: 0;
+		}
+
+		.container {
+			max-width: 800px;
+			margin: 0 auto;
+			padding: 50px;
+			text-align: center;
+		}
+
+		h1 {
+			font-size: 48px;
+			margin-bottom: 30px;
+			color: #333;
+		}
+
+		form {
+			display: inline-block;
+			margin-right: 20px;
+		}
+
+		input[type="submit"] {
+			background-color: #333;
+			color: #fff;
+			font-size: 18px;
+			padding: 10px 20px;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+
+		input[type="submit"]:hover {
+			background-color: #555;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h1>Welcome to our website!</h1>
+		<form action="/login">
+			<input type="submit" value="Log In">
+		</form>
+		<form action="/registion">
+			<input type="submit" value="Sign Up">
+		</form>
+		<form action="/profile">
+			<input type="submit" value="profile">
+		</form>
+	</div>
+</body>
+</html>
