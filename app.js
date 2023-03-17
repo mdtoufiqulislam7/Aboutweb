@@ -182,7 +182,7 @@ app.use((req,res,next)=>{
 })
 
 app.use((err,req,res,next)=>{
-    res.json({
+    res.status(500).json({
         error: "Server problem"
     })
 })
