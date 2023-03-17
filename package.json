@@ -3,9 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "engines": {
+    "node": "14.x"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
@@ -20,7 +23,7 @@
     "express-session": "^1.17.3",
     "mongoose": "^7.0.2",
     "nodemon": "^2.0.21",
-    "passport": "^0.6.0",
+    "passport": "^0.6.0", 
     "passport-local": "^1.0.0",
     "path": "^0.12.7"
   }
