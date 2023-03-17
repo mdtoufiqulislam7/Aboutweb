@@ -176,7 +176,7 @@ app.get('/logout',(req,res)=>{
 
  //error haldeler   
 app.use((req,res,next)=>{
-    res.json({
+    res.status(404).json({
         error: "Route Not Found"
     })
 })
@@ -187,9 +187,7 @@ app.use((err,req,res,next)=>{
     })
 })
 
-app.use=((req, res) => {
-  res.status(404).json({ message: 'Not Found' });
-});
+
 
 
 
